@@ -8,7 +8,11 @@ class Homecontroller extends Controller
 {
     //actions
     public function index(){
-       return view('index'); 
+       return view('front.index'); 
+    }
+
+    public function show( $name='defult'){
+        return view("front.pages.$name");
     }
     
 }
