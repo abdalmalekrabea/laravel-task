@@ -22,3 +22,4 @@ Route::get('/'  ,function ()
 });
 Route::get('/pages/{name}',[Homecontroller::class, 'show']);
 
+Route::view('/dashboard', 'layouts.dashboard');
