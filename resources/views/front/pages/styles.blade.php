@@ -4,7 +4,7 @@
 @section('volunteer')
     <!-- hero
     ================================================== -->
-    <section class="s-hero" data-parallax="scroll" data-image-src="images/hero-bg-3000.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+    <section class="s-hero" data-parallax="scroll" data-image-src="{{ asset('images/hero-bg-3000.jpg')}}" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
 
         <div class="hero-left-bar"></div>
 

@@ -7,7 +7,7 @@
 
         <div class="header-logo">
             <a class="site-logo" href="index.html">
-                <img src="images/logo.svg" alt="Homepage">
+                <img src="{{ asset('images/logo.svg')}}" alt="Homepage">
             </a>
         </div>
 
